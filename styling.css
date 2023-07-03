@@ -3,3 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* box-sizing: border-box; permet d'exclure el padding du width. */
+/* ainsi, quand je mets padding: xpx; le contenu bouge sans faire agrandir le content */
+
+/* Styling Header */
