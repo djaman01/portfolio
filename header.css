@@ -8,14 +8,14 @@
 
 /* Styling Header */
 #header {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   background: linear-gradient(to right, rgb(0, 136, 255), rgb(255, 21, 0));
+  position: sticky;
+  top: 0;
 }
 
 .navbar1, .navbar2 {
-border: 2px solid green;
 display: flex;
 margin: auto;
 width: 200px;
@@ -47,11 +47,6 @@ a::after {
 
 a:hover::after {
   transform: scaleX(1);
-}
-
-
-.div-logo {
-  border: 2px solid yellow;
 }
 
 .logo-header {
